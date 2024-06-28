@@ -30,12 +30,13 @@ let m = function (param1, param2) {
 let arg1 = 2;
 let arg2 = 3;
 m(arg1, arg2);
+
 //First Class Function
 
 let n = function () {
   return function abc() {
     console.log(
-      "The ability to use function as value is known as first class function!"
+      "The ability of function to be use as value & passed as argument or return value is known as first class function!"
     );
   };
 };
