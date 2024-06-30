@@ -20,7 +20,6 @@ const calculate = function (arr, logic) {
   }
   return area;
 };
-
 //Type-3
 Array.prototype.calculate = function (logic) {
   let area = [];
