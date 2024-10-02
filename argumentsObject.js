@@ -25,3 +25,7 @@ let b = function () {
   console.log("I am a anonymous function");
 };
 b();
+
+let x;
+console.log(x);
+x = 6;
